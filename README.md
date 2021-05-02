@@ -5,6 +5,6 @@ A way to hide comments on Old reddit.
 
 Note: This does not affect the "hide child comments" option. That will still remain.
 
-#How does this work?
+# How does this work?
 
 Easy. Just access the code, make any edits you want, and copy and paste it into yout Reddit stylesheet! 
