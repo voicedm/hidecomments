@@ -1,0 +1,234 @@
+/**hidecomments start**/
+.menuarea > .spacer{
+    margin-right:5px !important;
+}
+
+
+.sitetable .usertext-edit.md-container{
+    margin-left:35px;
+}
+
+.comment .entry {
+    margin-left: 45px;
+}
+
+.comment .expand {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.12);
+    padding: 3px 0;
+    top: 0;
+    left: 0;
+    color:#e5ede5;
+    font-size:0;
+    transition:background-color 200ms;
+}
+
+.comment .expand:hover{
+    text-decoration:none;
+    /*background-color:rgba(0,0,0,0.25);*/
+}
+
+.comment.collapsed .entry {
+    margin-left: 0;
+}
+
+.expand:after{
+    line-height:26px;
+    color:white;
+}
+
+.comment.noncollapsed .expand:after {
+    font-size:18px;
+    content: "-";
+}
+
+.comment.collapsed .expand:after {
+    font-size:15px;
+    content: "+";
+}
+
+.thing{
+    position:relative;
+}
+
+.commentarea {
+    padding-bottom: 10px;
+}
+
+.rounded.gold-accent.comment-visits-box, .single-page .infobar {
+    margin: 0 10px 10px 10px!important;
+    display: flex;
+    max-width: 100% !important;
+    justify-content: center;
+}
+
+.single-page .infobar a {
+    margin-left: 5px;
+}
+
+.comment{
+    clear:left;
+}
+
+.comment.collapsed {
+    height: 2em;
+}
+
+.res .comment.collapsed {
+    height: 2.5em;
+}
+
+.comment .RES-keyNav-activeElement + .child > .sitetable > .thing{
+    margin-right:15px;
+}
+
+.comment, .comment .comment .comment, .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment,  .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #f7f7f7;
+    padding: 5px;
+    margin-right: 8px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    border-left:none;
+}
+
+.commentarea > .sitetable > .comment {
+    border: 1px solid #d5d5d5;
+    border-left:none;
+    margin-left:10px !important;
+    margin-right:10px !important;
+}
+
+.comment .comment, .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment, .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #fefefe;
+}
+
+.res .nestedlisting .thing, .res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #f7f7f7 !important;
+}
+
+.res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #fefefe !important;
+    margin-right:5px !important;
+    margin-left: 0px !important;
+}
+
+/*.new-comment .usertext-body {
+    background-color: #b5d3de;
+    border: none;
+    padding: 2px 10px;
+    margin-top: 5px;
+}*/
+
+.comment.spam>.child {
+    margin-left: 15px;
+    padding-left: 0;
+    background-color: transparent;
+}
+
+.comment .child, .comment .showreplies {
+    margin-top:0;
+    border: none;
+}
+
+.morechildren {
+    margin: 15px 5px 10px 5px;
+}
+
+.commentarea .infobar {
+    margin-left: 10px;
+}
+
+.morechildren .entry {
+    background-color: rgba(0,0,0,0.05)!important;
+    padding: 0;
+    margin-left: 0;
+    transition: color 200ms,background-color 200ms;
+}
+
+.morechildren a {
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+}
+
+.morechildren a:hover {
+    text-decoration:none;   
+}
+
+.morechildren a:before {
+    content: "+ ";
+}
+
+.morecomments .gray, .morechildren a {
+    color: inherit !important;
+}
+
+.morechildren .entry:hover {
+    color: white !important;
+}
+
+.nestedlisting > .morechildren {
+    margin: 15px 10px 0 10px;
+}
+
+.nestedlisting > .morechildren .entry {
+    margin-left: 0;
+}
+
+.action-reason {
+    margin-left: 45px;
+}
+
+.comment.collapsed .comment .expand {
+    display: none;
+}
+
+.comment.collapsed .comment .entry {
+    overflow: visible;
+}
+
+.comment.collapsed .comment .tagline {
+    margin-left: -15px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.single-page .content>.sitetable .thing {
+    margin-bottom: 0;
+}
+
+.single-page .content>.sitetable {
+    border-bottom: 20px solid #f5f5f5;
+}
+
+.single-page:not(.loggedin) .nestedlisting {
+    border-top: 10px solid #f5f5f5;
+    padding-top: 10px;
+}
+
+.contest-mode.infobar.mellow {
+    background: transparent;
+    border: none;
+    font-size: 0;
+    margin-bottom: 0 !important;
+}
+
+.contest-mode.infobar.mellow strong {
+    font-size: 12px;
+    color: blue;
+}
+
+
+.commentarea .comment .midcol {
+    left: 19px;
+    position: relative;
+}
